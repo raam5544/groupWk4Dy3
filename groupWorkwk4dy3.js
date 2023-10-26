@@ -128,3 +128,17 @@ let halfArray = favMovies.slice(getHalf)
 // // After running the above tasks, console.log the index of "Fast and Furious" -We removed it from the array, what value do we get when we look for the index of something that is not in the array?
 // console.log(halfArray.indexOf("Fast and Furious"))
 // Thought question: that we declared the variable favMovieswith const, and yet, we were allowed to change the array. Weird? Should we have used let?
+
+// Where is Waldo
+// With the following multi-dimensional array
+const whereIsWaldo = [["Timmy", "Frank"], "Eggbert",
+["Lucinda", "Jacc", "Neff", "Snoop"],
+["Petunia", ["Baked Goods", "Waldo"]]];
+// Remove Eggbert (hint look at the slice/splice method(s))
+whereIsWaldo.splice(1, 1)
+// console.log(whereIsWaldo)
+// Change "Neff" to "No One"
+whereIsWaldo[1][2] = "No One"
+// Access and console.log "Waldo"
+console.log(whereIsWaldo[2][1][1])
+// console.log(whereIsWaldo)
