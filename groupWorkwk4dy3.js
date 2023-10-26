@@ -140,5 +140,26 @@ whereIsWaldo.splice(1, 1)
 // Change "Neff" to "No One"
 whereIsWaldo[1][2] = "No One"
 // Access and console.log "Waldo"
-console.log(whereIsWaldo[2][1][1])
+// console.log(whereIsWaldo[2][1][1])
 // console.log(whereIsWaldo)
+
+// Excited Kitten
+// Write code that logs "Love me, pet me! HSSSSSS!" 20 times.
+// For every even number in your loop, log "...human...why you taking pictures of me?...", "...the catnip made me do it...", or "...why does the red dot always get away..." at random.
+// Hint 1
+// Hint 2
+// Hint 3
+// Hint 4
+// Hint 5
+// Hint 6
+
+const msg = ["...human...why you taking pictures of me?...", "...the catnip made me do it...", "why does the red dot always get away..."]
+
+
+// for (let i = 1; i <= 10; i++) {
+//     if (i % 2 == 0) {
+//         console.log(msg[Math.floor(Math.random()) * msg.length])
+//     }
+// }
+
+
