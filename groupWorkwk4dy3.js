@@ -234,3 +234,17 @@ thomsCloset[2].splice(3, 0, kristynsShoe)  //- method 2
 // console.log(`Kristyn is wearing ${kristynsCloset[0]}, ${kristynsCloset[2]} and ${kristynsCloset[3]}.`)
 
 // console.log(`Thom is wearing ${thomsCloset[0][2]}, ${thomsCloset[1][0]} and ${thomsCloset[2][2]}.`)
+
+// Dirty Laundry
+// Continue looking at the closet arrays:
+
+// Time to do laundry - loop through Kristyn's closet and log the sentence
+// "WHIRR: Now washing (item)" for each item in the array.
+
+// for (let laundry of kristynsCloset) {
+//     console.log(`WHIRR: Now washing ${laundry}`)
+// }
+
+console.log(thomsCloset[0])
+console.log(thomsCloset[1])
+console.log(thomsCloset[2])
