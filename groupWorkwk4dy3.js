@@ -60,10 +60,24 @@ wolfy[3] = 'Gotham City'
 // Give D'Art a 
 // second hometown by adding "Hawkins"
 dart.push('Hawkins')
-console.log(dart)
+// console.log(dart)
 
 // Porgee decides that Wolfy can't be named "Wolfy" anymore.
 // Remove "Wolfy" from the wolfyarray and replace it with "Gameboy".
 
-// wolfy.splice(0, 1, 'Gameboy')
+wolfy.splice(0, 1, 'Gameboy')
 // console.log(wolfy)
+
+// Yell at the Ninja Turtles
+// Create an array with the members of the 
+// ninja turtles (Donatello, Leonardo, Raphael, Michaelangelo)
+// Use a for of loop(not a typo - try it out! Try a for ofloop) 
+// to call toUpperCase()on each of them and print out the result.
+// As a developer, you'll be a lifelong learner and constantly encountering new things. 
+// We'll give you little stretches like this to get you used to looking at documentation and figuring some things out on your own. You've got this!
+
+const ninjaTurtles = ["Donatello", "Leonardo", "Raphael", "Michaelangelo"]
+
+for (let turtles of ninjaTurtles) {
+    // console.log(turtles.toLocaleUpperCase())
+}
